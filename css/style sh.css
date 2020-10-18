@@ -1,0 +1,155 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box
+}
+body{
+    font-family:'varela round',sans-serif
+}
+.layout{
+   background-image: url(../images/%D8%A7%D9%85%D8%B1%D8%A7%D8%B6%20%D8%A7%D9%84%D8%B5%D8%AF%D8%A4.PNG);
+    position: relative;
+    height: 100vh;
+    background-size: cover;
+    width:100%;
+    animation: kids 15s infinite linear;
+    position: relative;
+
+}
+@-webkit-keyframes kids{
+   0%,18%,24%,16%,17%, 20%,10%,15%{
+        background-image: url(../images/%D8%A7%D9%85%D8%B1%D8%A7%D8%B6%20%D8%A7%D9%84%D8%B5%D8%AF%D8%A4.PNG);
+    }
+    45%,35%,30%,40%,25%{
+       background-image: url(../images/%D9%86%D9%85%D9%885.PNG);
+    } 
+ 55%, 60%,65%, 50%{
+       background-image: url(../images/%D8%AD%D8%B6%D8%A7%D9%86%D8%A95.PNG) ; 
+    }
+   
+   75% ,65%,80%,70%{
+      background-image: url(../images/سمنة2.PNG);  
+    }
+    95%,90%,85%,100%{
+     background-image: url(../images/%D9%84%D8%A8%D9%86%20%D8%A7%D9%84%D8%B7%D9%81%D9%84.PNG)  ; 
+    }
+}
+.header{
+    background-color:darkgray;
+    
+}
+
+.container{
+    display: flex;
+    width: 80%;
+    margin: auto;
+    height: 100px;
+   
+   
+}
+
+.logo{
+    float: left;
+    width: 40%;
+   color:#fff;
+    text-align: center;
+    margin-top: 20px
+}
+.logo h1{
+    
+    color: blueviolet
+}
+
+.nav {
+    list-style-type: none;
+  display: inline;
+    display: flex;
+    width: 60%;
+   
+    -webkit-justify-content:space-around;
+    
+}
+.nav li{
+   /* align-items: center*/
+    margin-top: 30px
+}
+
+.nav a{
+    text-decoration: none;
+    color: #fff;
+    
+    
+}
+.services{
+   
+    height:200px;
+    
+   overflow:hidden;
+    position: absolute;
+    width:1500px;
+        top:250px;
+    left: 10px;
+
+}
+
+.services p{
+Letter-spacing:1px;
+font-size:35px;
+text-align:center;
+margin-bottom:30px
+}  
+.services h1{
+text-align:center;
+font-size:40px;
+margin-bottom:20px
+}
+.services-list{
+width:7500px;
+list-style-type:none;
+display:flex;
+position:relative;
+animation:paragraph 15s infinite linear;
+
+}  
+    
+.services-list li{
+width:1500px
+}  
+      
+    
+   @-webkit-keyframes paragraph{
+ 0%,18%,24%,16%,17%, 20%,10%,15%{
+left:0px;
+}
+45%,35%,30%,40%,25%{
+left:-1500px
+}
+
+ 55%, 60%,65%, 50%{
+left:-3000px
+}
+
+70%,75%,65%,80%{
+left:-4500px
+}
+95%,100%,90%,85%{
+left:-6000px
+}
+
+}
+.services a{
+	text-decoration:none;
+margin-left:700px;
+border:1px solid red;
+border-radius:6px;	
+font-size:30px;
+color:#fff;
+background-color:red;
+padding:10px 30px;
+transition:color,background-color 1s;
+
+}
+.services a:hover{
+	color:red;
+	background-color:#fff
+}
