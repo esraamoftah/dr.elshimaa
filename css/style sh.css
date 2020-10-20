@@ -14,7 +14,7 @@ body{
     width:100%;
     animation: kids 15s infinite linear;
     position: relative;
-
+background-attachment:fixed;
 }
 @-webkit-keyframes kids{
    0%,18%,24%,16%,17%, 20%,10%,15%{
@@ -36,6 +36,8 @@ body{
 }
 .header{
     background-color:darkgray;
+width:100%;
+/*position:fixed*/
     
 }
 
@@ -44,7 +46,7 @@ body{
     width: 80%;
     margin: auto;
     height: 100px;
-   
+ 
    
 }
 
@@ -86,7 +88,7 @@ body{
     
    overflow:hidden;
     position: absolute;
-    width:1500px;
+    width:100%px;
         top:250px;
     left: 10px;
 
@@ -113,7 +115,7 @@ animation:paragraph 15s infinite linear;
 }  
     
 .services-list li{
-width:1500px
+width:1500px;
 }  
       
     
@@ -144,7 +146,7 @@ border:1px solid red;
 border-radius:6px;	
 font-size:30px;
 color:#fff;
-background-color:red;
+background-color:rad;
 padding:10px 30px;
 transition:color,background-color 1s;
 
@@ -153,3 +155,115 @@ transition:color,background-color 1s;
 	color:red;
 	background-color:#fff
 }
+.doctor{
+	padding-top:120px;
+	position:relative
+}
+.container-doctor{
+	
+	width:80%;
+	margin:auto;
+}
+.doctor h1{
+	text-align:center;
+margin-bottom:20px;
+}
+
+.doctor span{
+	
+	width:40px;
+	background-color:red;
+	height:3px;
+	display:block;
+	margin: 20px auto 90px auto;
+	margin-bottom:90px
+
+
+
+	
+}
+.doctor p{
+
+
+font-size:30px;
+direction:rtl;	
+margin-bottom:30px;	
+line-height:50px
+}
+
+.doctor a{
+	
+	text-decoration:none;
+	border:1px solid red;
+	color:red;
+padding:15px 30px;
+margin-left:43%;
+transition:color,background-color 1s
+}
+.doctor a:hover{
+	
+	color:#fff;
+	background-color:red
+}
+
+.clinic {
+	
+
+	
+	
+	
+}
+
+.clinic h1{
+	text-align:center;
+	padding-top:50px
+}
+.clinic span{
+	
+	width:50px;
+	height:3px;
+	background-color:red;
+	display:block;
+	margin: 20px auto 50px auto;
+}
+
+.clinic-container{
+	width:80%;
+	margin-left:15%
+	
+	
+}
+img{
+width:300px;
+height:300px;
+float:left
+	
+}
+.clinic-img{
+	width:30%;
+	float:left;
+margin-bottom:120px;
+position:relative
+}
+.clear{
+	
+	clear:both
+}
+	
+.clinic items{
+	
+/*	display:flex*/
+}
+
+
+.clinic-img p{
+	
+	position:absolute;
+	display:block
+}	
+
+
+
+
+
+
