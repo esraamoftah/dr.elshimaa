@@ -4,7 +4,8 @@
     box-sizing: border-box
 }
 body{
-    font-family:'varela round',sans-serif
+    font-family:'varela round',sans-serif;
+	overflow:auto
 }
 .layout{
    background-image: url(../images/%D8%A7%D9%85%D8%B1%D8%A7%D8%B6%20%D8%A7%D9%84%D8%B5%D8%AF%D8%A4.PNG);
@@ -83,39 +84,36 @@ width:100%;
     
 }
 .services{
-   
-    height:200px;
-    
-   overflow:hidden;
-    position: absolute;
-    width:100%px;
-        top:250px;
-    left: 10px;
+ /* background-color:red;*/
+width:200px  ;
+position:absolute;
+top:200px;
+left:550px;
+overflow:hidden;
 
 }
 
 .services p{
-Letter-spacing:1px;
-font-size:35px;
 text-align:center;
-margin-bottom:30px
+font-size:20px
+
 }  
 .services h1{
 text-align:center;
-font-size:40px;
-margin-bottom:20px
+font-size:40px
 }
 .services-list{
-width:7500px;
-list-style-type:none;
+/*background-color:green;*/
+width:1000px;
 display:flex;
-position:relative;
-animation:paragraph 15s infinite linear;
-
+list-style-type:none;
+-webkit-animation:paragraph 15s infinite linear;
+position:relative
 }  
     
 .services-list li{
-width:1500px;
+padding:60px 20px
+
 }  
       
     
@@ -124,18 +122,19 @@ width:1500px;
 left:0px;
 }
 45%,35%,30%,40%,25%{
-left:-1500px
+left:-200px;
+
 }
 
  55%, 60%,65%, 50%{
-left:-3000px
+left:-400px
 }
 
 70%,75%,65%,80%{
-left:-4500px
+left:-600px
 }
 95%,100%,90%,85%{
-left:-6000px
+left:-800px
 }
 
 }
@@ -157,7 +156,8 @@ transition:color,background-color 1s;
 }
 .doctor{
 	padding-top:120px;
-	position:relative
+	position:relative;
+	padding-bottom:50px
 }
 .container-doctor{
 	
@@ -185,10 +185,11 @@ margin-bottom:20px;
 .doctor p{
 
 
-font-size:30px;
+font-size:45px;
 direction:rtl;	
 margin-bottom:30px;	
-line-height:50px
+line-height:50px;
+word-spacing:10px
 }
 
 .doctor a{
@@ -198,7 +199,8 @@ line-height:50px
 	color:red;
 padding:15px 30px;
 margin-left:43%;
-transition:color,background-color 1s
+transition:color,background-color 1s;
+
 }
 .doctor a:hover{
 	
@@ -209,12 +211,12 @@ transition:color,background-color 1s
 .clinic {
 	
 
-	
+padding-bottom:120px	
 	
 	
 }
 
-.clinic h1{
+.clinic-header{
 	text-align:center;
 	padding-top:50px
 }
@@ -227,43 +229,40 @@ transition:color,background-color 1s
 	margin: 20px auto 50px auto;
 }
 
-.clinic-container{
-	width:80%;
-	margin-left:15%
-	
-	
-}
-img{
-width:300px;
-height:300px;
-float:left
-	
-}
-.clinic-img{
+.clinic-item{
 	width:30%;
 	float:left;
-margin-bottom:120px;
-position:relative
+	padding-top:50px;
+
+}
+.clinic-item p{
+font-size:30px;
+margin-right:90px;	
+text-align:center	
 }
 .clear{
-	
 	clear:both
 }
+.clinic-img img{
+width:300px;
+height:250px;	
 	
-.clinic items{
+}
+.clinic-item .mg{
+/*margin:5px*/	
 	
-/*	display:flex*/
 }
 
-
-.clinic-img p{
+.clinic-content{
+	float:left;
+	padding-bottom:120px;
 	
-	position:absolute;
-	display:block
-}	
 
-
-
-
-
+}
+.clinic-container{
+	
+	margin:50px auto 120px 200px;
+	
+	
+}
 
