@@ -132,12 +132,23 @@ height:400px;
 	
 .services{
 	
-	left:100px
+	left:300px;
+	top:150px
+	
 }	
 	
 	
 	
 }
+@media screen and (max-width:500px){
+	
+.services{
+	top:150px;
+	left:100px
+}
+	
+	
+	}
 
 .services p{
 text-align:center;
