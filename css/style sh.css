@@ -8,7 +8,7 @@ body{
 	overflow:auto
 }
 .layout{
-   background-image: url(../images/%D8%A7%D9%85%D8%B1%D8%A7%D8%B6%20%D8%A7%D9%84%D8%B5%D8%AF%D8%A4.PNG);
+   background-image: url(../images/صدر.PNG);
     position: relative;
     height: 100vh;
     background-size:100% 100%;
@@ -20,7 +20,7 @@ background-attachment:fixed;
 }
 @-webkit-keyframes kids{
    0%,18%,24%,16%,17%, 20%,10%,15%{
-        background-image: url(../images/%D8%A7%D9%85%D8%B1%D8%A7%D8%B6%20%D8%A7%D9%84%D8%B5%D8%AF%D8%A4.PNG);
+        background-image: url(../images/صدر.PNG);
     }
     45%,35%,30%,40%,25%{
        background-image: url(../images/%D9%86%D9%85%D9%885.PNG);
@@ -47,21 +47,31 @@ width:100%;
     display: flex;
     width: 80%;
     margin: auto;
-    height: 100px;
+    height: 150px;
  
    
 }
 
 .logo{
     float: left;
-    width: 40%;
+   /* width: 40%;*/
    color:#fff;
     text-align: center;
-    margin-top: 20px
+    margin-top: 20px;
+	width:100%
+	
 }
 .logo h1{
-    
+   
     color: blueviolet
+}
+.logo span{
+	
+	font-size:30px
+}
+.logo i{
+	
+	display:block
 }
 
 .nav {
@@ -69,7 +79,7 @@ width:100%;
   display: inline;
     display: flex;
     width: 60%;
-   
+   display:none;
     -webkit-justify-content:space-around;
     
 }
@@ -101,10 +111,10 @@ width:100%;
  /* background-color:red;*/
 width:200px  ;
 position:absolute;
-top:150px;
+top:200px;
 overflow:hidden;
 left:550px;
-height:350px;
+height:400px;
 }
 @media screen and (max-width:400px){
 	
@@ -177,7 +187,7 @@ background-color:rad;
 padding:10px 30px;
 transition:color,background-color 1s;
 position:absolute;
-top:67%;
+top:85%;
 left:40%
 }
 .more a:hover{
@@ -228,9 +238,9 @@ word-spacing:10px
 	border:1px solid red;
 	color:red;
 padding:15px 30px;
-margin-left:43%;
-transition:color,background-color 1s;
 
+transition:color,background-color 1s;
+margin-left:43%
 }
 .doctor a:hover{
 	
@@ -263,11 +273,13 @@ padding-bottom:120px
 	width:30%;
 	float:left;
 	padding-top:50px;
-/*background-color:red*/
+//*background-color:red;*/
+/*width:90%*/
+
 }
 .clinic-item p{
 font-size:30px;
-margin-right:90px;	
+/*margin-right:90px;	*/
 text-align:center	
 }
 .clear{
@@ -275,19 +287,22 @@ text-align:center
 }
 .clinic-img img{
 width:100%px;
-height:250px;	
+height:250px;
+	
 	
 }
 .cinic-img{
-background-color:green;	
-	width:100%
+/*width:100%;*/
+	/*width:100%;*/
+	/*margin:0px auto*/
+	width:50%
 	
 }
 .clinic-item.mg{
-margin:0px 5%
+margin:0px 5%*/
 	
 }
-@media screen and (max-width:400px){
+@media screen and (max-width:500px){
 	
 .clinic-item{
 	width:90%;
@@ -296,22 +311,54 @@ margin:0px 5%
 	
 	margin:0px 0px
 }	
-	
+	*/
 	
 }
 .clinic-content{
 	float:left;
-	padding-bottom:120px;
-	-webkit-flex-wrap:wrap;
-
+	padding-bottom:120px;*/
+	/*-webkit-flex-wrap:wrap;*/
+/*-webkit-justify-content:center;*/
 
 }
 
 .clinic-container{
 	
 	margin:auto;
-	
+	background-color:red;
 	width:80%
+	}
+.location{
+	
+	position:relative;
+	text-align:right;
+	font-size:30px;
+	word-spacing:10px
+	
+	
 }
-@
+.container-location{
+	
+	
+	
+	width:80%;
+	margin:120px auto 60px auto
+}
+
+.proud{
+	color:#fff;
+	
+	font-size:30px;
+
+}
+
+.proud-content{
+	
+background-color:black;
+width:100%;
+height:100px;	
+margin-top:15px
+	
+}
+
 
