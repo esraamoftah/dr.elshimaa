@@ -104,7 +104,7 @@ width:100%;
 }
 .container{
 	
-	height:150px
+	height:120px
 }	
 	
 }
@@ -341,6 +341,7 @@ margin:0px 5%
 	
 .clinic-item{
 	width:90%;
+	margin-left:0px
 }	
 .clinic-item.mg{
 	
