@@ -8,7 +8,7 @@ body{
 	overflow:auto
 }
 .layout{
-   background-image: url(../images/صدر.PNG);
+   background-image: url(../images/كسف.PNG);
     position: relative;
     height: 100vh;
     background-size:100% 100%;
@@ -20,7 +20,7 @@ background-attachment:fixed;
 }
 @-webkit-keyframes kids{
    0%,18%,24%,16%,17%, 20%,10%,15%{
-        background-image: url(../images/صدر.PNG);
+        background-image: url(../images/كسف.PNG);
     }
     45%,35%,30%,40%,25%{
        background-image: url(../images/%D9%86%D9%85%D9%885.PNG);
@@ -262,7 +262,7 @@ margin-left:43%
 }
 @media screen and (max-width:500px){
 	.doctor a{
-		margin-left:25%
+		margin-left:10%
 	}
 	
 }
@@ -321,6 +321,22 @@ height:250px;
 margin:0px 5%
 	
 }
+@media screen and (max-width:768px){
+	
+.clinic-item{
+	
+	width:60%;
+	margin-left:20%
+}	
+	
+.clinic-item.mg{
+	margin:0px 20%
+}	
+	
+}
+
+
+
 @media screen and (max-width:500px){
 	
 .clinic-item{
