@@ -54,11 +54,11 @@ width:100%;
 
 .logo{
     float: left;
-   /* width: 40%;*/
+    width: 40%;
    color:#fff;
     text-align: center;
     margin-top: 20px;
-	width:100%
+	/*width:100%*/
 	
 }
 .logo h1{
@@ -67,11 +67,11 @@ width:100%;
 }
 .logo span{
 	
-	font-size:30px
+	/*font-size:30px*/
 }
 .logo i{
 	
-	display:block
+	display:none;
 }
 
 .nav {
@@ -79,14 +79,22 @@ width:100%;
   display: inline;
     display: flex;
     width: 60%;
-   display:none;
+   
     -webkit-justify-content:space-around;
     
 }
-@media screen and (max-width:400px){
+@media screen and (max-width:500px){
 	
 .nav{
 	display:none
+}
+.i{
+	
+	display:block
+}
+.logo span{
+	
+	font-size:20px
 }
 .logo{
 	
@@ -116,7 +124,7 @@ overflow:hidden;
 left:550px;
 height:400px;
 }
-@media screen and (max-width:400px){
+@media screen and (max-width:786px){
 	
 .services{
 	
@@ -232,6 +240,7 @@ line-height:50px;
 word-spacing:10px
 }
 
+
 .doctor a{
 	
 	text-decoration:none;
@@ -246,6 +255,12 @@ margin-left:43%
 	
 	color:#fff;
 	background-color:red
+}
+@media screen and (max-width:500px){
+	.doctor a{
+		margin-left:10%
+	}
+	
 }
 
 .clinic {
@@ -299,7 +314,7 @@ height:250px;
 	
 }
 .clinic-item.mg{
-margin:0px 5%*/
+margin:0px 5%
 	
 }
 @media screen and (max-width:500px){
@@ -311,7 +326,7 @@ margin:0px 5%*/
 	
 	margin:0px 0px
 }	
-	*/
+	
 	
 }
 .clinic-content{
