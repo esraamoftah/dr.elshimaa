@@ -18,6 +18,7 @@ body{
 /*background-attachment:fixed;*/
 
 }
+
 @-webkit-keyframes kids{
    0%,18%,24%,16%,17%, 20%,10%,15%{
         background-image: url(../images/كسف.PNG);
@@ -35,7 +36,11 @@ body{
     95%,90%,85%,100%{
      background-image: url(../images/%D9%84%D8%A8%D9%86%20%D8%A7%D9%84%D8%B7%D9%81%D9%84.PNG)  ; 
     }
+	
+	
 }
+
+
 .header{
     background-color:darkgray;
 width:100%;
@@ -69,9 +74,60 @@ width:100%;
 	
 	/*font-size:30px*/
 }
+
 .logo i{
 	
-	display:none;
+	display:none
+}	
+	
+
+ .logo i ul{
+	
+list-style-type:none;
+
+	
+	
+}
+
+.list{
+	
+	background-color:#000;
+
+-webkit-flex-basis:1000px;
+	-moz-flex-basis:1000px;
+visibility:hidden;
+padding:20px;
+z-index:10px
+	
+}
+.list ul li a{
+	text-decoration:none;
+	color:#eee;
+	margin-bottom:10px;
+	
+//*	padding-right:90px;*/
+	padding-top:20px;
+	display:block;
+/*	padding-left:90px*/
+}
+.list ul li{
+	z-index:10px
+	
+}
+.logo i:hover .list{
+	visibility:visible
+	
+}
+
+
+	
+
+	
+
+Details{
+background-color:#000;
+padding-top:20px
+
 }
 
 .nav {
@@ -88,10 +144,14 @@ width:100%;
 .nav{
 	display:none
 }
+
 .logo i{
 	
-	display:block
-}
+	display:block;
+}	
+	
+
+
 .logo span{
 	
 	font-size:20px
@@ -108,17 +168,104 @@ width:100%;
 }	
 	
 }
-.nav li{
+.nav > li{
    /* align-items: center*/
     margin-top: 30px
 }
+.nav>li> a:hover{
+	
+	color:red
+}
 
-.nav a{
+.nav  a{
     text-decoration: none;
     color: #fff;
     
     
 }
+
+.drop{
+	list-style-type:none;
+	width:150px;
+	height:0px;
+	background-color:#000;
+	/*padding-left:15px;*/
+	/*padding-right:10px;*/
+
+	position:absolute;
+	top:30px;
+	/*visibility:hidden;*/
+	/*display:none;*/
+	/*opacity:0px;*/
+	transition:all 0.2s
+	
+}
+.nav>a:hover{
+	
+	color:red
+}
+
+.dropdown-menu{
+
+display:none;
+font-size:20px;
+/*background-color:red;*/
+/*padding-right:10px;*/
+/*margin-bottom:20px;*/
+/*padding:10px*/
+/*display: block;*/
+/*margin-top:8px;*/
+text-align:center;
+transition: all 1s;
+
+padding-top:10px;
+padding-bottom:17.4px;
+
+
+
+}
+	
+	
+
+
+	
+
+
+
+.dropdown{
+	/*padding-top:5px*/
+	/*margin-bottom:5px*/
+	/*position:relative*/
+	position:relative;
+	/*text-align:center;*/
+	margin-top:5px;
+-webkit-align-items	:space-around;
+	
+}
+.dropdown-menu:hover{
+	background-color:red
+	
+}
+.drop-list{
+	
+
+height:50px;
+
+	
+}
+
+.dropdown:hover .dropdown-menu
+{
+	/*visibility:visible;*/
+	opacity:1;
+	display:block;
+	
+}
+.dropdown:hover .drop{
+	
+	height:150px
+}
+
 .services{
  /* background-color:red;*/
 width:200px  ;
@@ -127,6 +274,7 @@ top:200px;
 overflow:hidden;
 left:550px;
 height:400px;
+z-index:1;
 }
 @media screen and (max-width:786px){
 	
