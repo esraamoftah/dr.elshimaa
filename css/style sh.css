@@ -554,5 +554,23 @@ position:absolute;
 top:20px
 	
 }
+.social{
+	
+width:300px;
 
+margin:60px auto;
+	
+	
+	
+}
+.social-list{
+	list-style-type:none;
+	display:flex;
+	-webkit-justify-content:space-around;
+	
+}
+.social-list a{
+	
+	color:#f00
+}
 
